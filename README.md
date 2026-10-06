@@ -15,7 +15,7 @@ API REST para gestão e controlo de agendamentos desenvolvida com Spring Boot, P
 
 > [!NOTE]
 > 🛠️ **Projeto em desenvolvimento ativo!** 
-> As funcionalidades estão a ser construídas e atualizadas frequentemente.
+> As funcionalidades estão sendo construídas e atualizadas frequentemente.
 > 
 ## 📌 Funcionalidades
 
