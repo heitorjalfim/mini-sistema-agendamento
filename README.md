@@ -13,6 +13,10 @@ API REST para gestão e controlo de agendamentos desenvolvida com Spring Boot, P
 - **Flyway Migration**
 - **Lombok**
 
+> [!NOTE]
+> 🛠️ **Projeto em desenvolvimento ativo!** 
+> As funcionalidades estão a ser construídas e atualizadas frequentemente.
+> 
 ## 📌 Funcionalidades
 
 - [x] Agendamento de reuniões/compromissos.
@@ -20,9 +24,3 @@ API REST para gestão e controlo de agendamentos desenvolvida com Spring Boot, P
 - [x] Validação de conflitos de horário por utilizador.
 - [x] Alteração de estado de agendamentos (agendado, cancelado, concluído).
 - [x] Triggers automáticas no PostgreSQL para auditoria.
-
-## 🚀 Como Executar o Projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/heitorjalfim/mini-sistema-agendamento.git](https://github.com/heitorjalfim/mini-sistema-agendamento.git)git status
