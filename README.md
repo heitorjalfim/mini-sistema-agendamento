@@ -8,7 +8,6 @@ API REST para gestão e controlo de agendamentos desenvolvida com Spring Boot, P
 - **Spring Boot 3.x**
   - Spring Web
   - Spring Data JPA
-  - Validation
 - **PostgreSQL**
 - **Flyway Migration**
 - **Lombok**
