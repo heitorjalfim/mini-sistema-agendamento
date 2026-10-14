@@ -1,4 +1,4 @@
-# Mini Sistema de Agendamento
+# Sistema de Agendamento
 
 API REST para gestão e controlo de agendamentos desenvolvida com Spring Boot, PostgreSQL e Flyway.
 
