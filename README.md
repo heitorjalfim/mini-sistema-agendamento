@@ -5,7 +5,7 @@ API REST para gestão e controle de agendamentos desenvolvida com Spring Boot, P
 ## 🛠️ Tecnologias Utilizadas
 
 - **Java 17+**
-- **Spring Boot 3.x**
+- **Spring Boot**
   - Spring Web
   - Spring Data JPA
 - **PostgreSQL**
