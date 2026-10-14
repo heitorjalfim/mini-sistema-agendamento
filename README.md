@@ -12,14 +12,24 @@ API REST para gestão e controlo de agendamentos desenvolvida com Spring Boot, P
 - **Flyway Migration**
 - **Lombok**
 
-> [!NOTE]
-> 🛠️ **Projeto em desenvolvimento ativo!** 
-> As funcionalidades estão sendo construídas e atualizadas frequentemente.
-> 
 ## 📌 Funcionalidades
 
-- [x] Agendamento de reuniões/compromissos.
-- [x] Validação de intervalos de datas (data inicial < data final).
-- [x] Validação de conflitos de horário por utilizador.
-- [x] Alteração de estado de agendamentos (agendado, cancelado, concluído).
-- [x] Triggers automáticas no PostgreSQL para auditoria.
+- [x] **Criação de Agendamentos:** Registro de novos compromissos com validação de dados via DTOs.
+- [x] **Validação de Intervalos de Datas:** Garantia de que a data inicial seja anterior à data final.
+- [x] **Validação de Conflitos de Horário:** Impedimento de sobreposição de horários.
+- [x] **Atualização de Dados:** Alteração das informações de um agendamento existente.
+- [x] **Gestão de Status:** Transição de estados dos agendamentos (`AGENDADO`, `CANCELADO`, `CONCLUIDO`).
+- [x] **Consulta por ID:** Busca detalhada de um agendamento específico.
+- [x] **Documentação Interativa:** Interface visual Swagger UI para testes da API REST.
+
+---
+
+## 🛣️ Endpoints da API
+
+| Método | Endpoint | Descrição |
+| :--- | :--- | :--- |
+| `POST` | `/agendamentos` | Cria um novo agendamento |
+| `GET` | `/agendamentos/{id}` | Busca um agendamento pelo ID |
+| `PUT` | `/agendamentos/{id}` | Atualiza os dados de um agendamento |
+| `PUT` | `/agendamentos/{id}/cancelar` | Altera o status do agendamento para `CANCELADO` |
+| `PUT` | `/agendamentos/{id}/concluir` | Altera o status do agendamento para `CONCLUIDO` |
