@@ -11,7 +11,7 @@ public interface AgendamentoRepository extends JpaRepository<Agendamento, Long> 
         SELECT CASE WHEN COUNT(a) > 0 THEN true ELSE false END
         FROM Agendamento a
         WHERE a.usuario = :usuario
-        AND a.status = dev.matheuslf.miniagendamento.model.StatusAgendamento.AGENDADO
+        AND a.status = StatusAgendamento.AGENDADO
         AND (a.dataInicio < :fim AND a.dataFim > :inicio)
         AND (:ignoreId IS NULL OR a.id <> :ignoreId)
         """)
