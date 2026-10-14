@@ -1,6 +1,6 @@
 # Sistema de Agendamento
 
-API REST para gestão e controlo de agendamentos desenvolvida com Spring Boot, PostgreSQL e Flyway.
+API REST para gestão e controle de agendamentos desenvolvida com Spring Boot, PostgreSQL e Flyway.
 
 ## 🛠️ Tecnologias Utilizadas
 
